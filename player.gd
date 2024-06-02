@@ -1,9 +1,8 @@
 extends RigidBody2D
 
-@export
-var  FORCE = 1000
+@export var FORCE = 1000
 
-func _physics_process(delta):
+func _physics_process(_delta):
 	
 	if (Input.is_action_pressed("move_right")):
 		apply_force(Vector2(FORCE, 0))

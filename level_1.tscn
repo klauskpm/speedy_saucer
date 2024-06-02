@@ -20,3 +20,5 @@ z_index = 1000
 position = Vector2(502, 200)
 
 [node name="Maze" parent="." instance=ExtResource("4_frcmo")]
+
+[connection signal="body_exited" from="Maze" to="." method="_on_maze_body_exited"]
