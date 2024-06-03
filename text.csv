@@ -1,0 +1,15 @@
+keys,en
+custom__move_left,"Left"
+custom__move_right,"Right"
+custom__move_up,"Up"
+custom__move_down,"Down"
+
+event_Left,"Left Arrow"
+event_Left (Physical),"Left Arrow"
+event_Right (Physical),"Right Arrow"
+event_Up (Physical),"Up Arrow"
+event_Down (Physical),"Down Arrow"
+event_A (Physical),"A"
+event_W (Physical),"W"
+event_S (Physical),"S"
+event_D (Physical),"D"
